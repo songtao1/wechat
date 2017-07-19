@@ -1,0 +1,6 @@
+<view class="area">地点： {{address}}</view>
+<view class="area"> 
+	<image class="typeicon" src="/resources/{{type}}.png"/>{{textType}}
+</view>
+<view class="area">交易说明： {{message}}</view>
+<view class="area">联系方式： {{contact}}</view>

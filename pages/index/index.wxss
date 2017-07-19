@@ -1,0 +1,30 @@
+	.footercontainer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 42px;
+		display:flex;
+	}
+	.publish{
+		flex: 1;
+		width: 50%;
+		background: #ff9700;
+		line-height: 42px;
+		text-align: center;
+		color: #fff;
+	}
+	.search{
+		flex: 1;
+		width: 50%;
+		background: #03bbd5;
+		line-height: 42px;
+		text-align: center;
+		color: #fff;
+	}
+	.mpcontainer{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 42px;
+	}

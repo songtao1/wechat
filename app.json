@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/detail/detail",
+     "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "吃货online",
+    "navigationBarTextStyle":"black",
+    "backgroundTextStyle":"#fff",
+    "backgroundColor":"#ccc",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh":true
+  },
+  "tobar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logx",
+      "text": "日志"
+    },{
+      "pagePath": "pages/myown/myown",
+      "text": "我的"
+    }],
+    "selectedColor":"red"
+
+  }
+}
